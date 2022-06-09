@@ -556,7 +556,7 @@ class QueryCursor {
 						params['body'] = me._getBodyForInsert();
 					}
 				} else {
-					query += ' FORMAT TabSeparated';
+					// query += ' FORMAT TabSeparated';
 
 					if (data) {
 						params['body'] = me._getBodyForInsert();
